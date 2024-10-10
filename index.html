@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishav Parasar - Personal Brochure</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="brochure-container">
+        <header class="header">
+            <h1>Rishav Parasar</h1>
+            <p>Java Developer | B.Tech in Computer Science</p>
+            <div class="contact-info">
+                <p>📞 +91 6204833039</p>
+                <p>✉️ <a href="mailto:rishavparasar2004@gmail.com">rishavparasar2004@gmail.com</a></p>
+                <p>🔗 <a href="https://linkedin.com/in/rishav-parasar">LinkedIn</a></p>
+                <p>🌐 <a href="https://parasar33.github.io/Rishav_resume">Personal Website</a></p>
+            </div>
+        </header>
+
+        <section class="about">
+            <h2 onclick="toggleSection('about-content')">About Me</h2>
+            <div id="about-content" class="content">
+                <p>I am a dedicated and skilled Java Developer with a strong background in computer science. Currently pursuing a B.Tech in Computer Science from Bharati Vidyapeeth (DU) College of Engineering Pune, I have a CGPA of 9.42 and a passion for developing innovative solutions.</p>
+            </div>
+        </section>
+
+        <section class="experience">
+            <h2 onclick="toggleSection('experience-content')">Work Experience</h2>
+            <div id="experience-content" class="content">
+                <h3>Java Developer Intern at Aone Technologies</h3>
+                <p>(May 2024 – August 2024)</p>
+                <ul>
+                    <li>Engineered a Swing-based "Cold Storage" app for warehouse management.</li>
+                    <li>Developed RESTful APIs, improving internal data flow by over 30%.</li>
+                </ul>
+                
+                <h3>Java Project Intern at Infosys Springboard</h3>
+                <p>(October 2024 – Present)</p>
+                <ul>
+                    <li>Contributed to the development of a sports performance analysis web application.</li>
+                    <li>Utilized React & Spring Boot with microservices architecture.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2 onclick="toggleSection('skills-content')">Skills</h2>
+            <div id="skills-content" class="content">
+                <ul>
+                    <li><strong>Languages:</strong> Java, Python, C, C++, SQL</li>
+                    <li><strong>Frameworks:</strong> Hibernate, Spring MVC, Spring Boot, Flask</li>
+                    <li><strong>Web Technologies:</strong> JSP, Servlets, RESTful APIs, React</li>
+                    <li><strong>Tools:</strong> Git, Docker, IntelliJ IDEA, Unix/Linux</li>
+                    <li><strong>Machine Learning:</strong> TensorFlow, scikit-learn</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2 onclick="toggleSection('projects-content')">Projects</h2>
+            <div id="projects-content" class="content">
+                <ul>
+                    <li><strong>Neural Network from Scratch:</strong> Built a neural network in Java.</li>
+                    <li><strong>Blockchain Creation:</strong> Developed a blockchain implementing proof-of-work.</li>
+                    <li><strong>Distributed File System:</strong> Created a distributed file system with load balancing.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="certifications">
+            <h2 onclick="toggleSection('certifications-content')">Certifications</h2>
+            <div id="certifications-content" class="content">
+                <ul>
+                    <li>JAVA – Beginner to Advanced</li>
+                    <li>DBMS by NPTEL</li>
+                    <li>JAVA Full Stack Development</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="achievements">
+            <h2 onclick="toggleSection('achievements-content')">Achievements</h2>
+            <div id="achievements-content" class="content">
+                <ul>
+                    <li>Inter-District Medium Pacer, Vaishali District Cricket Team</li>
+                    <li>Diploma in Fine Arts</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
